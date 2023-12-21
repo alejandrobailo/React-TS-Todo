@@ -1,0 +1,17 @@
+.login__title {
+  margin-bottom: 1.25rem;
+  color: var(--color-text);
+  font-size: var(--font-size-large);
+
+  @media screen and (max-width: 360px) {
+    font-size: var(--font-size-normal);
+  }
+}
+
+.login__form {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,22 @@
+.loginInput__invalidFeedback {
+  color: var(--color-error);
+  margin-top: .3125rem;
+}
+
+.loginInput__formGroup {
+  margin-bottom: 0.9375rem;
+}
+
+.loginInput__label {
+  display: block;
+  margin-bottom: 0.3125rem;
+}
+
+.loginInput__input {
+  width: 15rem;
+  padding: 0.625rem;
+  border-radius: var(--border-radius);
+  border: .0625rem solid var(--color-border);
+  background: var(--color-input-background);
+  color: var(--color-text);
+}

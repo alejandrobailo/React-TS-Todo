@@ -1,0 +1,20 @@
+.commonButton {
+  background: var(--color-button-background);
+  border-radius: var(--border-radius);
+  color: var(--color-button-text);
+  font-size: var(--font-size-normal);
+  padding: 0.547rem 1.25rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,11 @@
+.errorMessage__error {
+  color: var(--color-error);
+  background: var(--color-error-background);
+  padding: 0.625rem;
+  margin-top: 0.3125rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 0.125rem 0.25rem var(--color-error-background);
+  font-size: var(--font-size-small);
+  border-left: 0.25rem solid var(--color-error);
+  width: 15rem;
+}

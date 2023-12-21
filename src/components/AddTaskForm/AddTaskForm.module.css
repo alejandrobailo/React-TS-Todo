@@ -1,0 +1,22 @@
+.addTaskForm__form  {
+  color: var(--color-text);
+  display: flex;
+  width: 36.5rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+
+  @media screen and (max-width: 45rem) {
+    width: 100%;
+  }
+}
+
+.addTaskForm__input {
+  flex: 1;
+  padding: 0.625rem;
+  border-radius: var(--border-radius);
+  border: .0625rem solid var(--color-border);
+  background: var(--color-input-background);
+  color: var(--color-text);
+}

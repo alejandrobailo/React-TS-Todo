@@ -1,0 +1,26 @@
+:root {
+  --color-text: #fff;
+  --color-button-background: linear-gradient(
+    90deg,
+    #a9a5fd 0%,
+    #ebd75d 101.62%
+  );
+  --color-button-text: #000000;
+  --color-input-background: #333;
+  --color-border: #ccc;
+  --color-error: #e74c3c;
+  --color-error-background: rgba(231, 76, 60, 0.1);
+  --border-radius: .25rem;
+  --form-padding: 1.25rem;
+  --input-height: 2.5rem;
+  --font-size-small: 0.875rem;
+  --font-size-normal: 1rem;
+  --font-size-large: 2rem;
+  --common-height: 2.3438rem;
+}
+
+@media (max-width: 45rem) {
+  :root {
+    --font-size-large: 1.5rem;
+  }
+}
